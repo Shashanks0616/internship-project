@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create the new schedule</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        
+.create{
+    border: 2px solid black;
+    border-radius:  10px; ;
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    left: 285px;
+    top: 100px;
+    font-size: large;
+    /* font: ; */
+
+}
+
+.create p{
+    position: absolute;
+    left: 200px;
+    top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.name{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-weight: bolder;
+
+}
+.name input{
+    width: 530px;
+    height: 25px;
+}
+.date{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-weight: bolder;
+    font-size: medium;
+
+}
+.date input{
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.enddate{
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    font-weight: bolder;
+    font-size: medium;
+
+}
+.enddate input{
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+    /* left: 150px; */
+}
+
+
+.week{
+    position: absolute;
+    top: 150px;
+    left: 405px;
+    font-weight: bolder;
+    font-size: medium;
+
+}
+.week input{
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+    /* left: 150px; */
+}
+
+
+.close{
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    width:150px;
+}
+.close button{
+    width: 260px;
+    cursor: pointer;
+    height: 27px;
+    border: 2px solid rgb(54, 54, 54);
+
+}
+
+.close button:hover{
+    background-color: #19c213;
+    color: #f4f6f4;
+}
+
+
+.creating{
+    position: absolute;
+    top: 240px;
+    left: 300px;
+    width:150px;
+}
+.creating button{
+    width: 260px;
+    cursor: pointer;
+    height: 27px;
+    border: 2px solid rgb(54, 54, 54);
+
+}
+
+.creating button:hover{
+    background-color: #19c213;
+    color: #f4f6f4;
+}
+
+.background{
+    background:black url(back.png);
+    background-size: cover;
+}
+
+
+    </style>
+</head>
+<body background="black url(back.png)">
+    <div class="rectangle " >
+        <div class="rect">
+           <div class="create">
+              <p>Create a new Schedule</p> 
+              <div class="name">
+               Schedule Name  <br>
+                <input type="text" name="" id=""placeholder="Enter Name">
+
+             </div>
+             <div class="date">
+                 Start Date <br>
+                 <input type="date" name="" id="" placeholder="Select Start Date">
+
+               
+             </div>
+             <div class="enddate">
+                End Date <br>
+                <input type="date" name="" id=""placeholder="Select End Date">
+             </div>
+
+
+             <div class="week">
+                EnterNo. of Weeks <br>
+                <input type="number" name="" id=""placeholder="Enter No. of Weeks">
+             </div>
+
+
+             <div class="close">
+                 <button>Close</button>
+             </div>
+
+             <div class="creating">
+                <button>Create</button>
+            </div>
+           </div>
+         
+        </div>
+        
+    </div>
+    
+</body>
+</html>

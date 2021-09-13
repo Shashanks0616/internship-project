@@ -1,0 +1,772 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: antiquewhite; */
+}
+
+@media (min-width:500px) and (max-width:100px){
+    #navbar{
+        display: block;
+    }
+}
+
+.boxed {
+    border: 2px solid #32cd32;
+    border-radius: 5px;
+    width: 250px;
+    height: 760px;
+    top: auto;
+    background-color: #32cd32;
+
+  }
+  .box{
+      display: flex;
+      /* border: 2px solid green; */
+      width: 905px;
+      height: 50px;
+  }
+  .box li{
+      list-style-type: none;
+      text-decoration: none;
+  }
+  /* .box li a{
+      color:#0A0A0A;
+      font-size: 18px;
+      /* position: absolute; */
+      /* top: 10px;
+      gap: 20px;
+      /* padding-top: 390px ; */
+      /* margin-top: 10px 10px 10px 10px;
+      bottom: 0px; */
+  /* }  */
+
+  .team a{
+      color: black;
+      font-size: 18px;
+       gap: 20px; 
+       position: absolute; 
+       top: 18px; 
+       right: 820px;
+      text-align: center;
+      justify-content: center;
+      align-items: center   ;
+  } 
+  .team a:hover{
+    color: #2e2d2d;
+
+  }
+
+  .u23 a{
+    color: black;
+    font-size: 18px;
+     gap: 20px; 
+     position: absolute; 
+     top: 18px; 
+     right: 720px;
+    text-align: center;
+    justify-content: center;
+    align-items: center   ;
+} 
+.u23 a:hover{
+    color: #2e2d2d;
+}
+
+
+.u19 a{
+    color: black;
+    font-size: 18px;
+     /* gap: 20px;  */
+     right: 620px;
+     position: absolute; 
+     top: 18px; 
+    text-align: center;
+    justify-content: center;
+    align-items: center   ;
+} 
+.u19 a:hover{
+    color: #2e2d2d;
+}
+
+
+
+  .box li a:hover{
+      color: #19c213;
+  }
+  .navbar{
+      display: flex;
+      width: 1020px; 
+  }
+
+  .img img{
+      margin-right: 120px; 
+      height:40px ;
+      padding: 5px;
+      position: absolute;
+      left: 990px;
+      text-align: right;
+      cursor: pointer;
+      
+  }
+  .img p{
+      position: absolute;
+      right:40px;
+      top: 14px;
+      cursor: pointer;
+  }
+  .p p{ 
+      position: absolute;
+
+      right: 200px;
+  }
+.h h2{
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+  .body{
+      background-color: #f8f4f6;
+  }
+  .team img{
+      width: 8%;
+  }
+  .weekly img{
+      width: 7%;
+  }
+  .met img{
+      width: 7%;
+  }
+  .li li{
+      list-style: none;
+      gap: 20px;
+      margin: 10px;
+      cursor: pointer;
+  }
+  .li li:hover{
+      background-color: #f8f4f683;
+  }
+  /* .btn p{
+      align-items: center;
+      justify-content: center;
+      height: 9%;
+      position: absolute;
+      left: 73px ;
+      bottom: 65px;
+      color: #2e2d2d;
+  } */
+.btn p{
+    left: 76px;
+    top: 370px;
+      color: rgb(247, 245, 243);
+
+    
+    position: absolute;
+}
+
+  .btn button{
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: 55px;
+      bottom: 60px;
+      box-sizing: 120px;
+      height: 50px;
+      width: 150px;
+      border: 2px solid rgba(245, 243, 243, 0.048);
+      border-radius: 5px;
+      font-size: 16px;
+      color: #32cd32;
+      cursor: pointer;
+
+  }
+
+  .button button{
+      position: absolute;
+      top: 80px;
+      left: 297px;
+      padding: 10px;
+      width: 180px;
+      cursor: pointer;
+      background-color: #32cd32;
+      color: #f8f4f6;
+      border: 2px solid #32cd32 ;
+      border-radius: 5px;
+  }
+
+
+  .rightsearch input{
+      background-color: #f4f6f4;
+      border: #f4f6f4;;
+      border-radius: 2px;
+      position: absolute;
+      top: 80px;
+      right: 60px;
+      padding: 8px;
+  }
+
+  .midrectangle{
+     border: 2px solid #f4f6f4;
+     position: absolute;
+     width: 820px;
+     top: 150px;
+     height: 160px;
+     left: 295px;
+     color: rgb(5, 5, 5);
+     font-weight: 400px;
+     background-color: #f4f6f4;
+     
+  }
+  .weeks{
+      position: absolute;
+      top: 30px;
+      color: rgb(156, 155, 153);
+      left: 16px;
+  }
+
+
+
+  .righttext p{
+      position: absolute;
+      top: 7px;
+      left: 15px;
+  }
+
+
+  .pencil img{
+      position: absolute;
+      left: 650px;
+      top: 8px;
+      cursor: pointer;
+  }
+  .delete img{ position: absolute;
+    left: 710px;
+    cursor: pointer;
+    top: 8px;
+    
+  }
+  .polygon img{
+      cursor: pointer;
+      top: 1px;
+    position: absolute;
+    left: 760px;
+
+  }
+  
+
+  .start p{
+      position: absolute;
+      top: 60px;
+      font-size: small;
+      color: rgb(156, 155, 153);
+      
+
+  }
+
+   
+
+  .jan p{
+    position: absolute;
+    top: 78px;
+    font-size: medium;
+    
+
+}
+
+.end p{
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    font-size: small;
+    color: rgb(156, 155, 153);
+    
+
+}
+
+ 
+
+.feb p{
+  position: absolute;
+  top: 78px;
+  left: 160px;
+  font-size: medium;
+  
+
+}
+
+/* .buttons li{ */
+    /* position: absolute; */
+    /* padding-bottom:10px 10px 10px 10px; */
+    /* margin-right: 50px; */
+    /* padding: 10px 10px; */
+    /* border: 2px solid rgba(0, 0, 0, 0.137); */
+    /* margin: 2px; */
+    /* top: 200px; */
+    /* width: 88px; */
+/* } */
+/* .buttons li:hover{
+    border:2px solid #32cd32 ;
+} */
+/* .buttons{
+    position: absolute;
+    top: 120px  ; */
+    /* padding: 10px ; */
+    /* row-gap: 20px; */
+    /* gap: 20px; */
+
+    /* margin-right: 100px; */
+
+    
+
+/* } */ 
+
+
+.monday li{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+    padding: 8px;
+
+}
+.monday li:hover{
+    border:2px solid #32cd32;
+    color: #32cd32;
+}
+.Tuesday li{
+    position: absolute;
+       top: 120px;
+
+    left: 140px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+    padding: 8px;
+
+}
+.Tuesday li:hover{
+    border:2px solid #32cd32;
+    color: #32cd32;
+
+}
+.Wednesday li{
+    position: absolute;
+    top: 120px;
+    padding: 8px;
+    left: 280px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+
+}
+.Wednesday li:hover{
+    border:2px solid #32cd32;
+    color: #32cd32;
+
+}
+.Thursday li{
+    position: absolute;
+    top: 120px;
+    padding: 8px;
+    left: 420px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+}
+.Thursday li:hover{
+    border:2px solid #32cd32;
+    color: #32cd32;
+
+}
+.Friday li{
+    position: absolute;
+    top: 120px;
+    padding: 8px;
+    left: 560px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+}
+.Friday li:hover{
+    border:2px solid #32cd32;
+    color: #32cd32;
+
+}
+.Saturday li{
+    position: absolute;
+    top: 120px;
+    padding: 8px;
+    left: 700px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+}
+.Saturday li:hover{
+    border:2px solid #32cd32;
+    color: #32cd32;
+
+}
+
+.buttons button{
+    border: #f8f4f6;
+
+}
+
+
+.bottomrectangle{
+    border: 2px solid #f4f6f4;
+    position: absolute;
+    width: 820px;
+    top: 180px;
+    height: 55px;
+    left: 0px;
+    color: rgb(5, 5, 5);
+    font-weight: 400px;
+    background-color: #f4f6f4;
+    
+}
+
+.righttop p{
+    /* justify-content: center; */
+    position: absolute;
+    top: 6px;
+    left: 13px;
+}
+.we{
+    position: absolute;
+    top: 28px;
+    color: rgb(156, 155, 153);
+    left: 13px;
+
+}
+.we img{
+    position: absolute;
+    left: 750px;
+    /* top: 5px; */
+    bottom: 12px;
+    cursor: pointer;
+}
+
+.bottomrectangl{
+    border: 2px solid #f4f6f4;
+    position: absolute;
+    width: 820px;
+    top: 250px;
+    height: 55px;
+    left: 0px;
+    color: rgb(5, 5, 5);
+    font-weight: 400px;
+    background-color: #f4f6f4;
+    
+}
+
+.righttop p{
+    /* justify-content: center; */
+    position: absolute;
+    top: 6px;
+    left: 13px;
+}
+.we{
+    position: absolute;
+    top: 28px;
+    color: rgb(156, 155, 153);
+    left: 13px;
+
+}
+.we img{
+    position: absolute;
+    left: 750px;
+    /* top: 5px; */
+    bottom: 12px;
+    cursor: pointer;
+    
+}
+
+
+.bottomrectang{
+    border: 2px solid #f4f6f4;
+    position: absolute;
+    width: 820px;
+    top: 320px;
+    height: 55px;
+    left: 0px;
+    color: rgb(5, 5, 5);
+    font-weight: 400px;
+    background-color: #f4f6f4;
+    
+}
+
+.righttop p{
+    /* justify-content: center; */
+    position: absolute;
+    top: 6px;
+    left: 13px;
+}
+.we{
+    position: absolute;
+    top: 28px;
+    color: rgb(156, 155, 153);
+    left: 13px;
+
+}
+.we img{
+    position: absolute;
+    left: 750px;
+    /* top: 5px; */
+    bottom: 12px;
+    cursor: pointer;
+}
+
+.bottomrectan{
+    border: 2px solid #f4f6f4;
+    position: absolute;
+    width: 820px;
+    top: 390px;
+    height: 55px;
+    left: 0px;
+    color: rgb(5, 5, 5);
+    font-weight: 400px;
+    background-color: #f4f6f4;
+    
+}
+
+.righttop p{
+    /* justify-content: center; */
+    position: absolute;
+    top: 6px;
+    left: 13px;
+}
+.we{
+    position: absolute;
+    top: 28px;
+    color: rgb(156, 155, 153);
+    left: 13px;
+
+}
+.we img{
+    position: absolute;
+    left: 750px;
+    /* top: 5px; */
+    bottom: 12px;
+    cursor: pointer;
+}
+
+
+
+.bottomrecta{
+    border: 2px solid #f4f6f4;
+    position: absolute;
+    width: 820px;
+    top: 460px;
+    height: 55px;
+    left: 0px;
+    color: rgb(5, 5, 5);
+    font-weight: 400px;
+    background-color: #f4f6f4;
+    
+}
+
+.righttop p{
+    /* justify-content: center; */
+    position: absolute;
+    top: 6px;
+    left: 13px;
+}
+.we{
+    position: absolute;
+    top: 28px;
+    color: rgb(156, 155, 153);
+    left: 13px;
+
+}
+.we img{
+    position: absolute;
+    left: 750px;
+    /* top: 5px; */
+    bottom: 12px;
+    cursor: pointer;
+}
+
+
+
+
+.bottomrect{
+    border: 2px solid #f4f6f4;
+    position: absolute;
+    width: 820px;
+    top: 550px;
+    height: 55px;
+    left: 0px;
+    color: rgb(5, 5, 5);
+    font-weight: 400px;
+    background-color: #f4f6f4;
+    
+}
+
+.righttop p{
+    /* justify-content: center; */
+    position: absolute;
+    top: 6px;
+    left: 13px;
+}
+.we{
+    position: absolute;
+    top: 28px;
+    color: rgb(156, 155, 153);
+    left: 13px;
+
+}
+.we img{
+    position: absolute;
+    left: 750px;
+    /* top: 5px; */
+    bottom: 12px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* //////CREATE THE NEW SCHEDULE  */
+
+.create{
+    border: 2px solid black;
+    border-radius:  10px; ;
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    left: 285px;
+    top: 100px;
+    font-size: large;
+    font: ;
+
+}
+
+.create p{
+    position: absolute;
+    left: 200px;
+    top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.name{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-weight: bolder;
+
+}
+.name input{
+    width: 530px;
+    height: 25px;
+}
+.date{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-weight: bolder;
+    font-size: medium;
+
+}
+.date input{
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.enddate{
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    font-weight: bolder;
+    font-size: medium;
+
+}
+.enddate input{
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+    /* left: 150px; */
+}
+
+
+.week{
+    position: absolute;
+    top: 150px;
+    left: 405px;
+    font-weight: bolder;
+    font-size: medium;
+
+}
+.week input{
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+    /* left: 150px; */
+}
+
+
+.close{
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    width:150px;
+}
+.close button{
+    width: 260px;
+    cursor: pointer;
+    height: 27px;
+    border: 2px solid rgb(54, 54, 54);
+
+}
+
+.close button:hover{
+    background-color: #19c213;
+    color: #f4f6f4;
+}
+
+
+.creating{
+    position: absolute;
+    top: 240px;
+    left: 300px;
+    width:150px;
+}
+.creating button{
+    width: 260px;
+    cursor: pointer;
+    height: 27px;
+    border: 2px solid rgb(54, 54, 54);
+
+}
+
+.creating button:hover{
+    background-color: #19c213;
+    color: #f4f6f4;
+}
+
+.background{
+    background:black url(back.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
